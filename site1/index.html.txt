@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravi | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; }
+    header { text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { color: #eee; font-size: 1.1rem; }
+    .projects { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 40px 20px; }
+    .card { background: rgba(255,255,255,0.1); border-radius: 10px; padding: 20px; width: 300px; text-align: center; transition: 0.3s; }
+    .card:hover { background: rgba(255,255,255,0.2); transform: scale(1.05); }
+    .card h3 { color: #00e0ff; margin-bottom: 10px; }
+    footer { text-align: center; padding: 20px; color: #ccc; background: rgba(0,0,0,0.3); font-size: 0.9rem; }
+    @media (max-width: 600px) { .card { width: 90%; } header h1 { font-size: 2rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Ravi 👋</h1>
+    <p>Full-Stack Developer | Cloud Engineer | Designer</p>
+  </header>
+  <section class="projects">
+    <div class="card">
+      <h3>🛍 Shopping App</h3>
+      <p>A professional Android shopping app built with Firebase & Java.</p>
+    </div>
+    <div class="card">
+      <h3>☁️ AWS Automation</h3>
+      <p>Automated EC2 scaling and monitoring using CloudFormation & CloudWatch.</p>
+    </div>
+    <div class="card">
+      <h3>🌱 Eco Challenges</h3>
+      <p>Interactive web platform promoting environmental sustainability.</p>
+    </div>
+  </section>
+  <footer>© 2025 Ravi Dhande | Portfolio</footer>
+</body>
+</html>
